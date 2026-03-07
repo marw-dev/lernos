@@ -1,0 +1,25 @@
+# Python / Build-Ordner
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+
+# OS-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# LernOS spezifische Daten (falls du sie im Projektordner hast)
+*.db
+*.sqlite3
+*.db-wal
+*.db-shm
+.lernos_backups/
+.lernos_docs/
